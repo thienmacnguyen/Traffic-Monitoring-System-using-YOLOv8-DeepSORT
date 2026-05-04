@@ -82,7 +82,6 @@ traffic-monitoring-ai/
 ├── outputs/
 │   └── demo_results/
 │
-├── main.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -92,7 +91,7 @@ traffic-monitoring-ai/
 
 ```
 pip install -r requirements.txt
-python main.py --input data/sample/video.mp4
+python src/deepsort_tracking.py
 ```
 
 ---
