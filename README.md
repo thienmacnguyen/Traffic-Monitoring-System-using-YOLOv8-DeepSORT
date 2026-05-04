@@ -60,22 +60,27 @@ Video Input
 ---
 
 ## Project Structure
-```
+
+```text
 traffic-monitoring-ai/
 │
 ├── src/
-│   ├── detection/
-│   ├── tracking/
-│   ├── speed_distance/
-│   ├── ocr/
-│   └── utils/
+│   ├── deepsort_tracking.py          # YOLO + DeepSORT tracking
+│   ├── speed_and_safe_distance.py    # Speed + safe distance calculation
+│   ├── distance_estimation.py        # Distance estimation (camera calibration)
+│   ├── ocr.py                        # OCR module
+│   ├── glare_reduction.py            # Image preprocessing
+│   └── utils.py                      # Helper functions
+│
+├── configs/
+│   ├── camera_matrix.pkl
+│   └── object_and_image_points.pkl
 │
 ├── data/
 │   └── sample/
 │
 ├── outputs/
-│
-├── notebooks/
+│   └── demo_results/
 │
 ├── main.py
 ├── requirements.txt
