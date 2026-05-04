@@ -91,7 +91,7 @@ traffic-monitoring-ai/
 
 ```bash id="kz61z6"
 pip install -r requirements.txt
-python DeepSORT_tracking_with_YOLO.py
+python main.py --input data/sample/video.mp4
 ```
 
 ---
@@ -106,8 +106,10 @@ python DeepSORT_tracking_with_YOLO.py
 
 ## Dataset
 
-Dataset is not included due to size limitations.
-Sample data can be added in the `data/` folder.
+The original dataset used in this project is not publicly available.
+To run the project:
+- Provide your own traffic video input
+- Or use webcam input
 
 ---
 
