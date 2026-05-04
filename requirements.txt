@@ -1,0 +1,18 @@
+# requirements.txt
+
+ultralytics
+opencv-python
+numpy
+pandas
+
+torch
+torchvision
+
+filterpy
+scikit-learn
+
+pytesseract
+
+matplotlib
+
+tqdm
