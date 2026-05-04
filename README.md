@@ -69,7 +69,6 @@ traffic-monitoring-ai/
 │   ├── speed_and_safe_distance.py    # Speed + safe distance calculation
 │   ├── distance_estimation.py        # Distance estimation (camera calibration)
 │   ├── ocr.py                        # OCR module
-│   ├── glare_reduction.py            # Image preprocessing
 │   └── utils.py                      # Helper functions
 │
 ├── configs/
@@ -122,5 +121,8 @@ To run the project:
 
 ---
 
+## Additional Resources
 
+- `notebooks/` - experiments and preprocessing
+- `scripts/` - utility scripts (not part of main pipeline)
 
