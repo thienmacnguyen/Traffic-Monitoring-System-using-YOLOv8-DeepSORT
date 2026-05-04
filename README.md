@@ -19,7 +19,7 @@ The system estimates **vehicle speed** and **safe distance** between vehicles us
 
 ## Pipeline
 
-```id="4v2h6j"
+```
 Video Input 
    → YOLO Detection 
    → DeepSORT Tracking 
@@ -89,7 +89,7 @@ traffic-monitoring-ai/
 ---
 ## Run Project
 
-```bash id="kz61z6"
+```
 pip install -r requirements.txt
 python main.py --input data/sample/video.mp4
 ```
