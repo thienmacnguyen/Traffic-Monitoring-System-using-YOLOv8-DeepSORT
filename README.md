@@ -84,8 +84,8 @@ traffic-monitoring-ai/
 │
 ├── main.py
 ├── requirements.txt
-└── README.md
-├── .gitignore
+├── README.md
+└── .gitignore
 ```
 ---
 ## Run Project
