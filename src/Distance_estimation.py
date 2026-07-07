@@ -4,12 +4,12 @@ def estimate_distance(bbox, class_id):
         return -1
 
     real_heights = {
-        0: 1.55,   # người
-        1: 1.0,   # xe đạp
-        2: 1.5,   # ô tô
-        3: 1.2,   # xe máy
-        5: 3.5,   # xe buýt
-        7: 4.0    # xe tải
+        0: 1.55,   # human
+        1: 1.0,   # bike
+        2: 1.5,   # car
+        3: 1.2,   # motor
+        5: 3.5,   # bus
+        7: 4.0    # truck
     }
     real_height = real_heights.get(class_id, 1.7)
     f = 800  # tiêu cự giả định
