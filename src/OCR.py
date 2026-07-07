@@ -5,8 +5,8 @@ import re
 
 def extract_speed(text):
     """
-    Hàm trích tốc độ từ chuỗi text OCR, có xử lý lỗi nhận dạng như 'Okm/h' → '0km/h'
-    Trả về: int (số km/h) hoặc None nếu không tìm thấy
+    This function extracts speed from an OCR text string, handling recognition errors such as '0km/h' or '0km/h'. 
+    It returns: int (number of km/h) or None if not found.
     """
     if not text:
         return None
