@@ -12,6 +12,6 @@ def estimate_distance(bbox, class_id):
         7: 4.0    # truck
     }
     real_height = real_heights.get(class_id, 1.7)
-    f = 800  # tiêu cự giả định
+    f = 800  # hypothetical focal length
     distance_m = (f * real_height) / height_pixel
     return round(distance_m, 2)
